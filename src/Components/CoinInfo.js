@@ -3,6 +3,7 @@ import { CryptoState } from '../CryptoContext';
 import axios from 'axios';
 import { HistoricalChart } from '../config/api';
 import { CircularProgress, ThemeProvider, createTheme, makeStyles } from '@material-ui/core';
+// eslint-disable-next-line
 import Chart from 'chart.js/auto';
 import { Line } from 'react-chartjs-2';
 import { chartDays } from '../config/data';
